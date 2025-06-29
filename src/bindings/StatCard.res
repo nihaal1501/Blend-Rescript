@@ -21,7 +21,7 @@ type chartDataPoint = {
 // Structure for representing change values
 type statCardChange = {
   value: float,
-  type_: changeType,
+  @as("type") type_: changeType,
 }
 
 // StatCard component props
